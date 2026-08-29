@@ -7,7 +7,8 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiohttp import web
 
-API_TOKEN== ''8996873868:AAEzelHwTo9H7IS8q46_b4rCe76Yuj-cMdo''
+API_TOKEN = "8996873868:AAEzelHwTo9H7IS8q46_b4rCe76Yuj-cMdo"
+
 ADMIN_ID = 123456789  # SHU YERGA O'ZINGIZNING TELEGRAM ID'INGIZNI YOZING
 
 bot = Bot(token=API_TOKEN)
