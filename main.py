@@ -4,7 +4,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiohttp import web
 
-API_TOKEN = "8996873868:AAHtwvuXhsAkmW0n-B376wH25pgfQeCurp0"
+# PASTDAGI QATORGA BOTFATHER'DAN OLGAN YANGI TOKENINGIZNI QO'YING
+API_TOKEN ='8996873868:AAENvvc_wP09BaKKsBu-sbtusMHwY-KRylo'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
@@ -25,7 +26,7 @@ async def main():
     port = int(os.environ.get("PORT", 8080))
     site = web.TCPSite(runner, '0.0.0.0', port)
     await site.start()
-    
+
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
